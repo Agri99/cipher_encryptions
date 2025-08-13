@@ -1,5 +1,7 @@
-upp_alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-low_alpha = "abcdefghijklmnopqrstuvwxyz"
+import string
+
+upp_alpha = string.ascii_uppercase
+low_alpha = string.ascii_lowercase
 
 def char_shift(char, offset, direction):
     if char.isupper():
