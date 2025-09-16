@@ -13,11 +13,11 @@ This project was created as a learning exercise to practice fundamental Python c
 ### How to Run
 1. Make sure you have Python installed on your system.
 2. Clone this repo to your local machine:
-	'''bash
-	git clone https://github.com/Agri99/cipher_encryptions.git
-	'''
+>git clone https://github.com/Agri99/cipher_encryptions.git
 3. Navigate to the project directory
 4. Run the script from your terminal:
-	'''bash
-	python cipher_encrypt.py
-	'''
+>python cipher_encrypt.py
+
+### Author
+Agriana
+Github: @Agri99
