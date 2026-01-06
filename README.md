@@ -1,22 +1,46 @@
-# Caesar and Vigenere Cipher CLI Tool
+# 🔐 Cipher Encryptions (Caesar & Vigenère)
 
-This is a simple command-line interface (CLI) tool written in Python to encrypt and decrypt messages using two classic ciphers: Caesar Cipher and Vigenere Cipher.
-This project was created as a learning exercise to practice fundamental Python concepts such as functions, control flow, and string manipulation.
+A simple Python CLI project that demonstrates two classic encryption algorithms:
+- **Caesar Cipher**
+- **Vigenère Cipher**
+
+This project is built for learning purposes and understanding basic cryptography concepts.
+
+> ⚠️ **Educational use only** — These ciphers are *not secure* and must not be used for real encryption.
+
+---
+
+## 🧰 Features
+- Encrypt & decrypt using Caesar cipher
+- Encrypt & decrypt using Vigenère cipher
+- Interactive command-line interface
+- Preserves spaces and punctuation
+
+---
+
+## 🖥️ Requirements
+- Python **3.8+**
+- No external libraries required
+
+---
+
+## 🚀 How to Run
+
+```bash
+python cipher_encrypt.py
 
 
-### Features
-* **Caesar Cipher:** Encrypt and Decrypt messages with a simple shift.
-* **Vigenere Cipher:** Encrypt and Decrypt messages using a keyword.
-* **CLI Menu:** An interactive menu to choose between the different cipher options.
+## Example (Caesar):
+Enter text to encrypt: Hello, World!
+Enter shift (integer): 3
+---Encrypted: Khoor, Zruog!
 
 
-### How to Run
-1. Make sure you have Python installed on your system.
-2. Clone this repo to your local machine:
->git clone https://github.com/Agri99/cipher_encryptions.git
-3. Navigate to the project directory
-4. Run the script from your terminal:
->python cipher_encrypt.py
+# Example (Vigenere):
+Enter text to encrypt: Attack at dawn!
+Enter Vigenere key (letters only): LEMON
+---Encrypted: Lxfopv ef rnhr!
+
 
 ### Author
 Agriana
